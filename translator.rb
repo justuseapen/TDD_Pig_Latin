@@ -57,7 +57,7 @@ class Translator
 		words.each do |word|
 			new_phrase << translate_word(word)
 		end
-		new_phrase.join" ".capitalize
+		new_phrase.join(" ").capitalize
 
 		#break phrase into words
 		#analyze words for vowels
@@ -65,5 +65,4 @@ class Translator
 		#else 'take all letters until first vowel and put at end of word'
 		#
 	end
-
 end
